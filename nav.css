@@ -1,0 +1,50 @@
+@import url('https://fontcity.neocities.org/jaihosans.css?family=jai+ho+sans');
+
+body, html {
+	margin: 0;
+	height: 100%;
+	font-family: "Calibri", "Arial", sans-serif;
+	font-size: 14.7px;
+	color: #987362; 
+}
+
+h1 {
+font-family: jai ho sans; 
+letter-spacing: 2px; 
+font-size: 15px; 
+border-bottom: dotted 2px #d5d6ea;
+padding-left: 5px;
+}
+
+li {
+list-style-image: url('star.gif');
+}
+
+a{
+color: #987362;
+text-decoration: none;
+}
+ 
+ 
+a:hover{
+font-style: italic; 
+text-decoration: underline;
+}
+ 
+
+
+::-webkit-scrollbar{
+width: 6px; 
+}
+ 
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+ 
+::-webkit-scrollbar-thumb{
+background-color: #d5d6ea;
+}
+
+
+
+

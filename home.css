@@ -1,0 +1,280 @@
+@import url('https://fontcity.neocities.org/jaihosans.css?family=jai+ho+sans');
+
+body, html {
+	margin: 0;
+	height: 100%;
+	background-image: url('back.gif');
+	font-family: "Calibri", "Arial", sans-serif;
+	font-size: 14.7px;
+	color: #987362; 
+	
+}
+
+.container {
+margin: auto; 
+padding: 20px; 
+width: 1100px;
+height: 720px; 
+}
+
+.left {
+margin-top: 25px; 
+float: left; 
+padding: 10px; 
+width: 45%; 
+height: 85%; 
+}
+
+.right {
+margin-top: 25px; 
+float: right; 
+padding: 10px; 
+width: 50%; 
+height: 85%; 
+}
+
+.main {
+margin: auto; 
+background-color: #fcfcfc; 
+border: 1.5px solid; 
+width: 100%; 
+height: 100%; 
+}
+
+.content {
+float: left; 
+width: 56%; 
+height: 95%; 
+padding: 15px; 
+text-align: center; 
+}
+
+.content img {
+  max-width: 310px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.nav {
+float: right; 
+background-color:#fff1ed;  
+border-left: 1.5px solid; 
+padding: 15px; 
+width: 32%; 
+height: 95%; 
+}
+
+.navcontent {
+margin: auto; 
+margin-top: -130px; 
+width:100%; 
+height:100%; 
+}
+
+.imgbox {
+margin: auto; 
+background-image: url('greenplaid.png'); 
+padding: 20px; 
+border: 1.5px dotted; 
+width: 95%;
+height: 50%; 
+}
+
+.img {
+margin: auto;
+width:100%; 
+height: 100%; 
+border: 1.5px solid; 
+background-image: url('helloinicio.jpg'); 
+background-size: cover; 
+background-position: 55%; 
+font-family: jai ho sans; 
+font-size: 37px; 
+font-weight: bold; 
+letter-spacing: 2px; 
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+.img h1 {
+  margin-top: 0; /* tira margem padrão que pode estar empurrando pra cima */
+  padding-top: 10px; /* espaço entre topo e texto */
+}
+
+
+.note {
+  position: relative;
+  overflow: visible; /* IMPORTANTE: permite que o adesivo ultrapasse */
+  float: left;
+  width: 50%;
+  height: 36%;
+  padding: 15px;
+  background-image: url('pinkbg.png');
+  margin-top: 15px;
+}
+
+.sticker {
+  position: absolute;
+  top: -40px;   /* empurra para cima da borda */
+  left: -40px;  /* empurra para fora da borda à esquerda */
+  width: 100px; /* aumenta o tamanho do adesivo */
+  z-index: 10;  /* garante que fique por cima */
+  transform: rotate(-5deg); /* estilo de adesivo fofo */
+  pointer-events: none; /* impede clique acidental */
+}
+
+.notecontent {
+  width: 100%;
+  background-color: rgba(255, 115, 173, 0.8);
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center; /* centraliza os GIFs */
+ 
+}
+
+.notecontent a {
+  display: inline-block; /* para que o <a> e o <img> fiquem alinhados e centralizados */
+  margin:
+  
+  4px; /* um espacinho entre os GIFs */
+}
+
+.notecontent a img {
+  max-width: 720px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+
+.side {
+margin-top: 15px; 
+margin-right: -15px; 
+float: right; 
+width: 37%; 
+height: 35%; 
+padding: 15px; 
+font-family: jai ho sans; 
+font-size: 11px; 
+font-weight: bold; 
+letter-spacing: 2px; 
+}
+
+.hello { 
+position: fixed; 
+bottom: -22px; 
+right: 0; 
+transform: translateX(0%);  
+} 
+
+.hanger { 
+position: fixed; 
+top: -15px; 
+left: 0; 
+transform: translateX(0%);  
+} 
+
+
+h1 {
+font-family: jai ho sans; 
+font-size: 37px; 
+font-weight: bold; 
+letter-spacing: 2px; 
+text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+ -webkit-animation: pop 2s ease-in-out infinite alternate;
+ animation: pop 2s ease-in-out infinite alternate;
+ -moz-animation: pop 2s ease-in-out infinite alternate;
+}
+
+@keyframes pop {
+from {
+transform:scale(0.95)
+}
+
+50% {
+transform:scale(1)
+}
+
+to {
+transform:scale(0.95)
+}
+}
+
+@-webkit-keyframes pop {
+from {
+-webkit-transform:scale(0.95)
+
+}
+
+50% {
+-webkit-transform:scale(1)
+
+}
+
+to {
+-webkit-transform:scale(0.95)
+
+}
+}
+
+h2 {
+font-family: jai ho sans;
+font-weight: bold;
+font-size: 15px; 
+letter-spacing: 1.5px; 
+padding: 6px 10px; 
+background-color: #e9e9f5;
+color: #987362; 
+border: 1.5px dotted #987362; 
+border-radius: 2px;
+text-align: center; 
+}
+
+h3 {
+font-family: jai ho sans; 
+font-size: 11px; 
+font-weight: bold; 
+letter-spacing: 2px; 
+}
+
+a{
+color:#e18a7a;
+text-decoration:underline
+}
+ 
+ 
+a:hover{
+color:#f5d5cb
+}
+
+::-webkit-scrollbar{
+width: 6px; 
+}
+ 
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+ 
+::-webkit-scrollbar-thumb{
+background-color: #d5d6ea;
+}
+
+#radio-player {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#radio {
+  width: 120px; /* tamanho maior do rádio */
+  height: auto;
+}
+
+
+
